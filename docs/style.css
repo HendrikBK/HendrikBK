@@ -1,14 +1,14 @@
-/*body {
-    background-color: antiquewhite;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+    background-color: antiquewhite !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
 }
 
-h1 {
+h1, h2, h3 {
     text-transform: uppercase;
     text-align: center;
 }
 
-#index ul {
+/*#index ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -27,7 +27,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-items: end;
-}
+}*/
 
 p.title {
     font-variant: small-caps;
@@ -40,7 +40,7 @@ p.author {
     text-align: center;
     margin: auto auto 0 auto;
 }
-
+/*
 img {
     width: 10em;
     aspect-ratio: 2 / 3;
