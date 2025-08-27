@@ -8,40 +8,55 @@ h1, h2, h3 {
     text-align: center;
 }
 
-/*#index ul {
+h2 {
+    margin: 3em auto auto auto;
+}
+
+h2:first-of-type {
+    margin: 1em auto auto auto;
+}
+
+ul {
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: fit-content;
 }
 
-#index ul li {
-    margin: 0.5em;
-    max-width: 10em;
-    flex-grow: 1;
-}
-
-#index li a {
+div > a {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-items: end;
-}*/
+    padding: 0.5em;
+}
+
+div > a:hover {
+    background-color: rgb(226, 193, 152) !important;
+    border-radius: 3%;
+}
+
+#gutenberg li a,
+#wikisource li a {
+    font-style: italic;
+}
+
+abbr[title] {
+    text-decoration: none !important;
+}
 
 p.title {
     font-variant: small-caps;
     text-align: center;
+    text-decoration: none;
     width: 100%;
 }
 
 p.author {
     font-style: italic;
     text-align: center;
+    text-decoration: none !important;
     margin: auto auto 0 auto;
 }
-/*
+
 img {
-    width: 10em;
     aspect-ratio: 2 / 3;
-}*/
+    border-radius: 2%;
+}
